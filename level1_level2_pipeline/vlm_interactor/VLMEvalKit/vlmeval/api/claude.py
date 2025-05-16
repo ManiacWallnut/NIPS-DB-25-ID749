@@ -23,7 +23,7 @@ alles_headers = {"alles-apin-token": "", "Content-Type": "application/json"}
 
 official_url = "https://openrouter.ai/api/v1/chat/completions"
 official_headers = {
-    "Authorization": "Bearer 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",
+    "Authorization": "Bearer ",
     "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional. Site URL for rankings on openrouter.ai.
     "X-Title": "<YOUR_SITE_NAME>",  # Optional. Site title for rankings on openrouter.ai.
 }

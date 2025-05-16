@@ -1,6 +1,5 @@
 # import anthropic
 # import os
-# os.environ['ANTHROPIC_API_KEY'] = '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'
 # client = anthropic.Anthropic()
 # print(client.models.list(limit=40))
 
@@ -26,7 +25,7 @@
 # import os
 # from openai import OpenAI
 
-# client = OpenAI(api_key='sk-proj-th134ZgVWr4ghsFcHf5NT3BlbkFJNT0baRtlxygeFahqUxlw')
+
 
 
 # response = client.chat.completions.create(model="gpt-3.5-turbo",
@@ -40,7 +39,7 @@
 # import requests
 # import json
 
-# api_key = 'sk-KRzjT7XNpKkqdHys9q1yu8i6cw6PnXHUtWMkiQ4x8f3bB11aD7Fb441fA63f73C859471162'
+# api_key = ''
 # url = 'https://platform.llmprovider.ai/v1/chat/completions'
 
 # headers = {
@@ -69,7 +68,7 @@
 # import requests
 # import json
 
-# api_key = 'sk-iTBtoIVwUXPR0kdrcdzY4FENICxocXjw7RthSZuS8f4b2b4d05Ff4708B57b2eF51b140d5c'
+# api_key = ''
 # url = 'https://platform.llmprovider.ai/v1/messages'
 
 # headers = {
@@ -100,11 +99,11 @@ import requests
 import json
 
 
-api_key = "sk-iTBtoIVwUXPR0kdrcdzY4FENICxocXjw7RthSZuS8f4b2b4d05Ff4708B57b2eF51b140d5c"
+api_key = ""
 response = requests.post(
     url="https://openrouter.ai/api/v1/chat/completions",
     headers={
-        "Authorization": "Bearer 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",
+        "Authorization": "Bearer ",
         "HTTP-Referer": "<YOUR_SITE_URL>",  # Optional. Site URL for rankings on openrouter.ai.
         "X-Title": "<YOUR_SITE_NAME>",  # Optional. Site title for rankings on openrouter.ai.
     },
@@ -134,7 +133,7 @@ else:
 
 # client = OpenAI(
 #   base_url="https://openrouter.ai/api/v1",
-#   api_key="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",
+#   api_key="",
 # )
 
 # completion = client.chat.completions.create(
@@ -190,6 +189,6 @@ def check_api_limit(api_key: str):
 if __name__ == "__main__":
     # 替换为你的实际 API key
     my_api_key = (
-        "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"
+        ""
     )
     check_api_limit(my_api_key)

@@ -64,7 +64,9 @@ python ./level1_level2_pipline/main_refactored.py --use_mistake_note=1
 ## Results
 
 
-### [Table 3](./assets/table3.png)
-### [Figure 6](./assets/figure6.png)
-### [Table 4](./assets/table4.png)
+### ![Table 3](./assets/table3.png)
 
+<div align="center">
+  <img src="./assets/figure6.png" alt="Figure 6" width="45%" style="margin-right: 5%"/>
+  <img src="./assets/table4.png" alt="Table 4" width="45%"/>
+</div>
